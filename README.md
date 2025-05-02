@@ -5,10 +5,10 @@ A Flutter-based trivia app with features like Beginner Mistakes, Coding Question
 
 ## Features
 
+- **OnBoard**: Get started with an interactive onboarding experience.
 - **Beginner Mistakes**: Learn common pitfalls for new developers.
 - **Coding Questions**: Test your coding knowledge with challenging questions.
 - **Interview Questions**: Prepare for technical interviews with curated questions.
-- **OnBoard**: Get started with an interactive onboarding experience.
 - **Quiz**: Engage in quizzes to test your skills.
 - **Task**: Complete tasks to reinforce learning.
 - **Tips**: Access helpful tips to improve your development skills.
@@ -24,9 +24,6 @@ A Flutter-based trivia app with features like Beginner Mistakes, Coding Question
 ```bash
 # Clone the repository
 git clone https://github.com/sh4on/dart_m.git
-
-# Navigate to the project directory
-cd dart_m
 
 # Install dependencies
 flutter pub get
