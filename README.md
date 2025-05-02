@@ -23,7 +23,7 @@ A Flutter-based trivia app with features like Beginner Mistakes, Coding Question
 
 ```bash
 # Clone the repository
-git clone https://github.com/sh4on/dart_m.git
+git clone https://github.com/sh4on/flutter-trivia.git
 
 # Install dependencies
 flutter pub get
