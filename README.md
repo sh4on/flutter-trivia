@@ -13,11 +13,20 @@ A Flutter-based trivia app with features like Beginner Mistakes, Coding Question
 - **Task**: Complete tasks to reinforce learning.
 - **Tips**: Access helpful tips to improve your development skills.
 
+## Tech Stack
+
+- **Flutter**: 3.29.3
+- **Dart**: 3.7.2
+- **Java**: 21.0.1 (LTS)
+
 ## Installation
 
 ```bash
 # Clone the repository
 git clone https://github.com/sh4on/dart_m.git
+
+# Navigate to the project directory
+cd dart_m
 
 # Install dependencies
 flutter pub get
