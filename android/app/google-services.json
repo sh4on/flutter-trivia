@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "741818077221",
+    "project_id": "flutter-trivia-2bc98",
+    "storage_bucket": "flutter-trivia-2bc98.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741818077221:android:4647c7c5cebcf6b825afcc",
+        "android_client_info": {
+          "package_name": "com.example.flutter_trivia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsTtj7jQ7xaHDCzLClDoueW_8zwxiPzfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
