@@ -1,16 +1,26 @@
-# flutter_trivia
+# Flutter Trivia App
 
-A new Flutter project.
+## Description
+A Flutter-based trivia app with features like Beginner Mistakes, Coding Questions, Interview Questions, OnBoard, Quiz, Task, and Tips to enhance your learning experience.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Beginner Mistakes**: Learn common pitfalls for new developers.
+- **Coding Questions**: Test your coding knowledge with challenging questions.
+- **Interview Questions**: Prepare for technical interviews with curated questions.
+- **OnBoard**: Get started with an interactive onboarding experience.
+- **Quiz**: Engage in quizzes to test your skills.
+- **Task**: Complete tasks to reinforce learning.
+- **Tips**: Access helpful tips to improve your development skills.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+# Clone the repository
+git clone https://github.com/sh4on/dart_m.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
