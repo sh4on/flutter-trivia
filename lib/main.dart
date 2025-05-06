@@ -14,6 +14,8 @@ import 'package:flutter_trivia/flutter_trivia_app.dart';
    // Initializes Firebase Cloud Messaging for push notifications
    FirebaseApi().initNotification();
 
+   // test
+
   runApp(const FlutterTriviaApp());
 }
 

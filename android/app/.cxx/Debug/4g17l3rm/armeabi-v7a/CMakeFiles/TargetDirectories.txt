@@ -1,0 +1,2 @@
+C:/Users/Admin/Desktop/App/pProject/flutter-trivia/android/app/.cxx/Debug/4g17l3rm/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Admin/Desktop/App/pProject/flutter-trivia/android/app/.cxx/Debug/4g17l3rm/armeabi-v7a/CMakeFiles/rebuild_cache.dir
