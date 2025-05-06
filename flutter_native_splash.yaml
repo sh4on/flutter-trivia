@@ -1,13 +1,13 @@
 flutter_native_splash:
-  color: "#F2F2F2"
-  color_dark: "#121212"
-  image: assets/images/logo/ic_launcher.png
-  image_dark: assets/images/logo/ic_launcher.png
+  color: "#F4F4F9"
+  color_dark: "#1A1927"
+  image: assets/logo/logo.png
+  image_dark: assets/logo/logo.png
 
   android_12:
-    color: "#F2F2F2"
-    color_dark: "#121212"
-    image: assets/images/logo/ic_launcher.png
-    image_dark: assets/images/logo/ic_launcher.png
+    color: "#F4F4F9"
+    color_dark: "#1A1927"
+    image: assets/logo/logo.png
+    image_dark: assets/logo/logo.png
 
   web: false
