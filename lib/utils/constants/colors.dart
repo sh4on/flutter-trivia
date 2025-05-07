@@ -5,6 +5,7 @@ class FColors {
 
   // App theme colors
   static const Color primary = Color(0xFF0E0E1A);         // Deep navy-black
+  static const Color lightNavy = Color(0xFF4B5EAA);       // light navy-black
   static const Color secondary = Color(0xFFD1D1DD);       // Light lavender gray
   static const Color accent = Color(0xFFB4B9FF);          // Soft vibrant blue
 

@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_trivia/utils/routes/route_names.dart';
+import 'package:flutter_trivia/utils/routes/route_pages.dart';
+import 'package:flutter_trivia/utils/theme/theme.dart';
 import 'package:get/get.dart';
 
 class FlutterTriviaApp extends StatelessWidget {
@@ -7,7 +10,11 @@ class FlutterTriviaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello.. this is  a test', style: TextStyle(fontWeight: FontWeight.w900),),),),
+      theme: FAppTheme.lightTheme,
+      darkTheme: FAppTheme.darkTheme,
+      debugShowCheckedModeBanner: false,
+      initialRoute: RouteNames.onBoard,
+      getPages: routePages,
     );
   }
 }
