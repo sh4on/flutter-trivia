@@ -25,7 +25,7 @@ class Button extends StatelessWidget {
         ),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(FSizes.sm),
-          color: isDarkMode(context)
+          color: SystemUtils.isDarkMode(context)
               ? FColors.white.withValues(alpha: 0.15)
               : Colors.black12,
         ),

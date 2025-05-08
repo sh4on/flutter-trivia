@@ -42,7 +42,7 @@ class BottomWidget extends StatelessWidget {
                         splashColor: Colors.transparent,
                         child: CustomDot(
                           color: controller.currentPage.value == index
-                              ? isDarkMode(context)
+                              ? SystemUtils.isDarkMode(context)
                                   ? FColors.lightNavy
                                   : FColors.primary
                               : FColors.grey,
