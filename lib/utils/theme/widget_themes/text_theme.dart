@@ -3,7 +3,7 @@ import '../../constants/colors.dart';
 
 /// Custom Class for Light & Dark Text Themes
 class FTextTheme {
-  FTextTheme._(); // To avoid creating instances
+  FTextTheme._();
 
   /// Customizable Light Text Theme
   static TextTheme lightTextTheme = TextTheme(
@@ -15,12 +15,12 @@ class FTextTheme {
     titleMedium: const TextStyle().copyWith(fontSize: 16.0, fontWeight: FontWeight.w500, color: FColors.dark),
     titleSmall: const TextStyle().copyWith(fontSize: 16.0, fontWeight: FontWeight.w400, color: FColors.dark),
 
-    bodyLarge: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: FColors.dark),
+    bodyLarge: const TextStyle().copyWith(fontSize: 15.0, fontWeight: FontWeight.w500, color: FColors.dark),
     bodyMedium: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.normal, color: FColors.dark),
-    bodySmall: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: FColors.dark.withOpacity(0.5)),
+    bodySmall: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: FColors.dark.withValues(alpha: 0.5)),
 
-    labelLarge: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: FColors.dark),
-    labelMedium: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: FColors.dark.withOpacity(0.5)),
+    labelLarge: const TextStyle().copyWith(fontSize: 13.0, fontWeight: FontWeight.normal, color: FColors.dark),
+    labelMedium: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: FColors.dark.withValues(alpha: 0.5)),
   );
 
   /// Customizable Dark Text Theme
@@ -33,11 +33,11 @@ class FTextTheme {
     titleMedium: const TextStyle().copyWith(fontSize: 16.0, fontWeight: FontWeight.w500, color: FColors.light),
     titleSmall: const TextStyle().copyWith(fontSize: 16.0, fontWeight: FontWeight.w400, color: FColors.light),
 
-    bodyLarge: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: FColors.light),
+    bodyLarge: const TextStyle().copyWith(fontSize: 15.0, fontWeight: FontWeight.w500, color: FColors.light),
     bodyMedium: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.normal, color: FColors.light),
-    bodySmall: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: FColors.light.withOpacity(0.5)),
+    bodySmall: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: FColors.light.withValues(alpha: 0.5)),
 
-    labelLarge: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: FColors.light),
-    labelMedium: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: FColors.light.withOpacity(0.5)),
+    labelLarge: const TextStyle().copyWith(fontSize: 13.0, fontWeight: FontWeight.normal, color: FColors.light),
+    labelMedium: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: FColors.light.withValues(alpha: 0.5)),
   );
 }

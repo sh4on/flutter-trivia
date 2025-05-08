@@ -12,7 +12,7 @@ class FColors {
   // Text colors
   static const Color textPrimary = Color(0xFF1C1C2B);     // Dark slate (headlines)
   static const Color textSecondary = Color(0xFF747484);   // Mid gray (body)
-  static const Color textWhite = Color(0xFFFFFFFF);
+  static const Color textWhite = Color(0xFFFFFDFA);
 
   // Gradient colors
   static const Gradient linearGradient = LinearGradient(
@@ -28,7 +28,7 @@ class FColors {
 
   // Background Container colors
   static const Color lightContainer = Color(0xFFFFFFFF);
-  static Color darkContainer = FColors.white.withOpacity(0.06);
+  static Color darkContainer = FColors.white.withValues(alpha: 0.06);
 
   // Button colors
   static const Color buttonPrimary = Color(0xFF1E1E2E);   // Active dark
